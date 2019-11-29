@@ -1,63 +1,29 @@
 {
-  "name": "test",
+  "name": "untitled1",
   "version": "0.1.0",
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
-    "dev": "webpack-dev-server --open --config webpack.config.js"
+    "dev": "webpack-dev-server --inline --progress --config webpack.config.js"
   },
   "dependencies": {
-    "axios": "^0.19.0",
-    "babel": "^6.23.0",
-    "babel-core": "^6.26.3",
-    "core-js": "^2.6.5",
-    "css-loader": "^3.2.0",
+    "core-js": "^3.4.3",
     "d3": "^5.14.2",
-    "extract-text-webpack-plugin": "^4.0.0-beta.0",
+    "element-ui": "^2.13.0",
     "vue": "^2.6.10",
-    "vue-loader": "^15.7.1",
-    "vue-router": "^3.1.3",
-    "vue-style-loader": "^4.1.2",
-    "vue-template-compiler": "^2.6.10",
-    "vue-template-es2015-compiler": "^1.9.1",
-    "webpack": "^4.41.0",
-    "webpack-cli": "^3.3.9",
-    "webpack-dev-server": "^3.8.2"
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.10"
   },
   "devDependencies": {
-    "@vue/cli-plugin-babel": "^3.11.0",
-    "@vue/cli-plugin-eslint": "^3.11.0",
-    "@vue/cli-service": "^3.11.0",
-    "acorn-walk": "^7.0.0",
-    "axios": "^0.19.0",
-    "babel": "^6.23.0",
-    "babel-core": "^6.26.3",
-    "babel-eslint": "^10.0.1",
-    "babel-loader": "^7.1.5",
-    "babel-plugin-component": "^1.1.1",
-    "babel-plugin-transform-runtime": "^6.23.0",
-    "babel-preset-es2015": "^6.24.1",
-    "babel-runtime": "^6.26.0",
-    "consolidate": "^0.15.1",
-    "css-loader": "^3.2.0",
-    "element-ui": "^2.12.0",
+    "@vue/cli-plugin-babel": "^4.1.0",
+    "@vue/cli-plugin-eslint": "^4.1.0",
+    "@vue/cli-service": "^4.1.0",
+    "babel-eslint": "^10.0.3",
     "eslint": "^5.16.0",
     "eslint-plugin-vue": "^5.0.0",
-    "extract-text-webpack-plugin": "^4.0.0-beta.0",
-    "iview": "^3.5.1",
-    "merge-source-map": "^1.1.0",
-    "style-loader": "^1.0.0",
-    "vue-hot-reload-api": "^2.3.4",
-    "vue-loader": "^15.7.1",
-    "vue-router": "^3.1.3",
-    "vue-style-loader": "^4.1.2",
-    "vue-template-compiler": "^2.6.10",
-    "vue-template-es2015-compiler": "^1.9.1",
-    "webpack": "^4.41.0",
-    "webpack-cli": "^3.3.9",
-    "webpack-dev-server": "^3.8.2"
+    "vue-template-compiler": "^2.6.10"
   },
   "eslintConfig": {
     "root": true,
@@ -73,18 +39,8 @@
       "parser": "babel-eslint"
     }
   },
-  "postcss": {
-    "plugins": {
-      "autoprefixer": {}
-    }
-  },
   "browserslist": [
     "> 1%",
     "last 2 versions"
-  ],
-  "description": "## Project setup ``` npm install ```",
-  "main": "babel.config.js",
-  "keywords": [],
-  "author": "",
-  "license": "ISC"
+  ]
 }
