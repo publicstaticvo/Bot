@@ -48,14 +48,5 @@ var config = {
 		new ExtractTextPlugin('main.css'),
 		new VueLoaderPlugin(),
 	],
-	devServer: {
-		host: 'localhost', 
-		port: 8080,
-		proxy: {
-			'/index': {
-				target: 'http://122.51.14.253:8080/bot_or_not'
-			}
-		}
-	},
 };
 module.exports=config;

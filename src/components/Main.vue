@@ -3,10 +3,7 @@
     <el-container>
       <el-header><menubar></menubar></el-header>
       <el-main>
-        <el-container>
-          <el-aside><bot :name="clickName"></bot></el-aside>
-          <el-main><main-page></main-page></el-main>
-        </el-container>
+        <main-page></main-page>
       </el-main>
       <el-footer></el-footer>
     </el-container>
@@ -16,14 +13,11 @@
 <script>
   import Menubar from "@/components/Menubar";
   import MainPage from "@/components/MainPage";
-  import Bot from "@/components/Bot";
   export default {
     name: 'main',
-    components: {Bot, MainPage, Menubar},
+    components: {MainPage, Menubar},
     data: function () {
-      return {
-        clickName: '',
-      }
+      return {}
     }
   }
 </script>
