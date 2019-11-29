@@ -4,7 +4,7 @@
       <el-header><menubar></menubar></el-header>
       <el-main>
         <el-container>
-          <el-aside><bot></bot></el-aside>
+          <el-aside><bot :name="clickName"></bot></el-aside>
           <el-main><main-page></main-page></el-main>
         </el-container>
       </el-main>
@@ -20,6 +20,11 @@
   export default {
     name: 'main',
     components: {Bot, MainPage, Menubar},
+    data: function () {
+      return {
+        clickName: '',
+      }
+    }
   }
 </script>
 
